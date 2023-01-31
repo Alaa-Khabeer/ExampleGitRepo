@@ -1,0 +1,73 @@
+body {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+aside {
+  display: inline-block;
+  width: 20%;
+  padding-top: 25%;
+  display: inline-flex;
+  vertical-align: top;
+  flex-direction: column;
+  color: #0f0f0f;
+}
+
+.rightSide {
+  display: inline-block;
+  width: 79%;
+  flex-direction: row;
+}
+
+header {
+  display: inline-block;
+  display: flex;
+  width: 100%;
+}
+
+.head {
+  width: 100%;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+article {
+  width: 29%;
+  display: flex;
+  display: block !important;
+  padding: 10px;
+}
+
+.image {
+  width: 100%;
+}
+
+.text {
+  font-size: 1.4vw !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: #1a1b1d;
+  color: white;
+  display: block !important;
+}
+
+.copy {
+  padding: 10px;
+}
+
+.textStyle, aside, .text, .copy {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 1.7vw;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=sass2.css.map */
